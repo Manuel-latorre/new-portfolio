@@ -6,6 +6,7 @@ import '../../app/globals.css'
 import LinkedinIcon from '../icons/LinkedinIcon'
 import { Linkedin } from 'lucide-react'
 import GithubIcon from '../icons/GithubIcon'
+import DocumentIcon from '../icons/DocumentIcon'
 
 
 
@@ -20,9 +21,10 @@ const Description = () => {
             <div className='text-zinc-500 w-[80%] max-xl:w-full'>
                 <p>Cuento con más de 6 meses de experiencia profesional en Desarrollo Frontend. Mi experiencia abarca tanto el Frontend como el Backend, lo que me permite ofrecer soluciones completas y bien integradas. Me especializo en el desarrollo de aplicaciones web utilizando el stack MERN (MongoDB, Express, React y Node.js) como base tecnológica preferida. Estoy comprometido con la excelencia técnica y la entrega de productos de alta calidad que satisfacen las necesidades del cliente.</p>
             </div>
-            <div className='flex items-center gap-4'>
-                <button className='p-2 rounded-xl w-[100px] text-black flex items-center gap-1 bgButton'>
-                    CV
+            <div className='flex items-center gap-4 mt-4'>
+                <button className='p-2 rounded-xl w-[100px] text-black flex items-center gap-1 justify-center bgButton'>
+                    <DocumentIcon/>
+                    <p className='font-bold'>CV</p>
                 </button>
                 <Link href={""} className='p-2 rounded-xl w-[100px] text-black flex items-center gap-1 bgButton'>
                     <GithubIcon/>
