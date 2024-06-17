@@ -4,6 +4,7 @@ import { useLanguage } from "@/context/translate";
 import React from "react";
 import Tma from "../ui/Experiencia/Tma";
 import Diarc from "../ui/Experiencia/Diarc";
+import Tualo from "../ui/Experiencia/Tualo";
 
 const Experiencia = () => {
 
@@ -18,6 +19,7 @@ const Experiencia = () => {
         </div>
 
       <div className="flex flex-col lg:gap-28">
+        <Tualo/>
         <Diarc/>
         <Tma/>
       </div>
