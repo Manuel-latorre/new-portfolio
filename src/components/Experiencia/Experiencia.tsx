@@ -5,6 +5,8 @@ import React from "react";
 import Tma from "../ui/Experiencia/Tma";
 import Diarc from "../ui/Experiencia/Diarc";
 import Tualo from "../ui/Experiencia/Tualo";
+import TualoDashboard from "../ui/Experiencia/TualoDashboard";
+import TechShop from "../ui/Experiencia/TechShop";
 
 const Experiencia = () => {
 
@@ -18,10 +20,12 @@ const Experiencia = () => {
             </h1>
         </div>
 
-      <div className="flex flex-col lg:gap-28">
+      <div className="flex flex-col gap-28">
         <Tualo/>
+        <TualoDashboard/>
         <Diarc/>
         <Tma/>
+        <TechShop/>
       </div>
 
 

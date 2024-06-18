@@ -57,7 +57,7 @@ const Diarc = () => {
             <ul className="list-disc flex flex-col gap-2">
               <li>
                 {isEnglish
-                  ? "Carrying out the customer's ideas correctly."
+                  ? "Develop the customer's ideas correctly."
                   : "Llevar a cabo correctamente las idéas del cliente."}
               </li>
               <li>
