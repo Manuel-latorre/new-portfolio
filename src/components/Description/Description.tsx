@@ -17,9 +17,12 @@ const Description = () => {
 
     const { isEnglish } = useLanguage();
   return (
-    <div className='flex items-center w-[80%] mx-auto max-xl:flex-col max-xl:w-[90%] max-xl:text-center max-xl:gap-10 h-screen'>
+    <div className='flex items-center w-[80%] mx-auto max-xl:flex-col max-xl:w-[90%] max-xl:text-center max-xl:gap-10 h-screen mb-10'>
         <div className='flex flex-col gap-2 w-[70%] max-xl:w-full'>
-            <div className='text-white text-2xl lg:text-7xl font-medium'>
+        <div className='w-[80%] mx-auto xl:hidden'>
+            <Image src={avatar} alt='' width={1000} height={1000} className='rounded-full'/>
+        </div>
+            <div className='text-white text-4xl lg:text-7xl font-medium'>
                 <h1 className='bg-gradient-to-r from-zinc-200 to-zinc-500 bg-clip-text text-transparent'>Manuel Latorre</h1>
                 <h2 className='bg-gradient-to-r from-[#F1FF4D] to-[#3ECF8E] bg-clip-text text-transparent'>Desarrollador Fullstack</h2>
             </div>
@@ -42,7 +45,7 @@ const Description = () => {
             </div>
         </div>
 
-        <div className='w-[40%]'>
+        <div className='w-[40%] max-xl:hidden'>
             <Image src={avatar} alt='' width={1000} height={1000} className='rounded-full'/>
         </div>
     </div>

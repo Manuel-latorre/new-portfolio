@@ -19,7 +19,7 @@ const Experiencia = () => {
 
   return (
     <div className="w-full sm:w-[90%] mx-auto">
-      <div className="text-white text-2xl lg:text-7xl font-medium text-center mb-16">
+      <div className="text-white text-5xl lg:text-7xl font-medium text-center mb-16">
         <h1 className="bg-gradient-to-r from-zinc-200 to-zinc-500 bg-clip-text text-transparent">
           {isEnglish ? "Experience" : "Experiencia"}
         </h1>
