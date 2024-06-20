@@ -24,16 +24,15 @@ const Technologies = () => {
     const { isEnglish } = useLanguage();
 
   return (
-    <div className="w-[90%] mx-auto mt-28">
+    <div className="w-[90%] mx-auto mt-28 h-full">
         <div className="text-white text-2xl lg:text-7xl font-medium text-center mb-16">
             <span className="bg-gradient-to-r from-zinc-200 to-zinc-500 bg-clip-text text-transparent">
                 {isEnglish ? "Technologies and tools" : "Tecnologías y herramientas"}
             </span>
         </div>
 
-        <div className="mt-16 flex items-center justify-center flex-wrap gap-2">
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-2">
             <TechnologyBox icon={<HtmlIcon/>} technology="HTML"/>
-            <TechnologyBox icon={<CSSIcon/>} technology="CSS"/>
             <TechnologyBox icon={<CSSIcon/>} technology="CSS"/>
             <TechnologyBox icon={<TailwindIcon/>} technology="Tailwind css"/>
             <TechnologyBox icon={<JavascriptIcon/>} technology="Javascript"/>

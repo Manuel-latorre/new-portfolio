@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import avatar from './avatar.png'
+import avatar from './avatar1.png'
 import Link from 'next/link'
 import '../../app/globals.css'
 import LinkedinIcon from '../icons/LinkedinIcon'
@@ -31,18 +31,18 @@ const Description = () => {
                     <DocumentIcon/>
                     <p className='font-bold'>CV</p>
                 </button>
-                <Link href={""} className='p-2 rounded-xl w-[100px] text-black flex items-center gap-1 bg-gradient-to-r from-[#F1FF4D] to-[#3ECF8E] hover:-translate-y-1 transition-all'>
+                <Link href={""} className='p-2 rounded-xl w-[100px] justify-center text-black flex items-center gap-1 bg-gradient-to-r from-[#F1FF4D] to-[#3ECF8E] hover:-translate-y-1 transition-all'>
                     <GithubIcon/>
                     <p className='font-bold'>Github</p>
                 </Link>
-                <Link href={""} className='p-2 rounded-xl w-[100px] text-black flex items-center gap-0.5 bg-gradient-to-r from-[#F1FF4D] to-[#3ECF8E] hover:-translate-y-1 transition-all'>
+                <Link href={""} className='p-2 rounded-xl w-[100px] justify-center text-black flex items-center gap-0.5 bg-gradient-to-r from-[#F1FF4D] to-[#3ECF8E] hover:-translate-y-1 transition-all'>
                     <p className='font-bold'>Linked</p>
                     <LinkedinIcon/>
                 </Link>
             </div>
         </div>
 
-        <div className='w-[30%]'>
+        <div className='w-[40%]'>
             <Image src={avatar} alt='' width={1000} height={1000} className='rounded-full'/>
         </div>
     </div>
